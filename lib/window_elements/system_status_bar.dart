@@ -143,8 +143,9 @@ class SystemStatusBar extends ConsumerWidget {
                     IconButton(
                       onPressed: () async {
                         if (await canLaunchUrlString(
-                            "https://github.com/lewislee922")) {
-                          launchUrlString("https://github.com/lewislee922");
+                            "https://github.com/lewislee922/simple_gui")) {
+                          launchUrlString(
+                              "https://github.com/lewislee922/simple_gui");
                         }
                       },
                       icon: const Icon(Ionicons.logo_github),
