@@ -1,0 +1,261 @@
+{
+    "name": "我國現行兒童預防接種時程",
+    "version": "108.05",
+    "intervalrecommandlink": "https://www.cdc.gov.tw/Uploads/files/e269bff0-3eb3-47b0-aa0c-9fa7ebb53d67.pdf",
+    "data": [
+        {
+            "timealias": "24hr內儘速",
+            "recomstarttime": 1,
+            "acceptable": [
+                1
+            ],
+            "doseno": [
+                1
+            ]
+        },
+        {
+            "timealias": "1 個月",
+            "recomstarttime": 28,
+            "acceptable": [
+                1
+            ],
+            "doseno": [
+                2
+            ]
+        },
+        {
+            "timealias": "2 個月",
+            "recomstarttime": 56,
+            "acceptable": [
+                2,
+                3
+            ],
+            "doseno": [
+                1,
+                1
+            ]
+        },
+        {
+            "timealias": "4 個月",
+            "recomstarttime": 112,
+            "acceptable": [
+                2,
+                3
+            ],
+            "doseno": [
+                2,
+                2
+            ]
+        },
+        {
+            "timealias": "5 個月",
+            "recomstarttime": 140,
+            "acceptable": [
+                10
+            ],
+            "doseno": [
+                0
+            ]
+        },
+        {
+            "timealias": "6 個月",
+            "recomstarttime": 168,
+            "acceptable": [
+                1,
+                2,
+                7
+            ],
+            "doseno": [
+                3,
+                3,
+                1
+            ],
+            "othernote": [
+                null,
+                null,
+                "流感疫苗初次接種二劑，之後每年一劑"
+            ]
+        },
+        {
+            "timealias": "12 個月",
+            "recomstarttime": 336,
+            "acceptable": [
+                3,
+                4,
+                5,
+                8
+            ],
+            "doseno": [
+                3,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "timealias": "15 個月",
+            "recomstarttime": 420,
+            "acceptable": [
+                3,
+                6,
+                8
+            ],
+            "doseno": [
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "timealias": "18 個月",
+            "recomstarttime": 504,
+            "acceptable": [
+                2,
+                8
+            ],
+            "doseno": [
+                4,
+                2
+            ]
+        },
+        {
+            "timealias": "21 個月",
+            "recomstarttime": 588,
+            "acceptable": [
+                8
+            ],
+            "doseno": [
+                2
+            ]
+        },
+        {
+            "timealias": "27 個月",
+            "recomstarttime": 756,
+            "acceptable": [
+                6
+            ],
+            "doseno": [
+                2
+            ]
+        },
+        {
+            "timealias": "滿5歲至入國小前",
+            "recomstarttime": 1825,
+            "acceptable": [
+                5,
+                6,
+                9
+            ],
+            "doseno": [
+                2,
+                0,
+                0
+            ],
+            "othernote": [
+                null,
+                "針對完成3劑不活化疫苗之幼童，於滿5歲至入國小前再接種1劑，與前一劑疫苗間隔至少12個月",
+                null
+            ]
+        }
+    ],
+    "vaccines": [
+        {
+            "id": 1,
+            "isactive": false,
+            "engname": "Hepatitis B vaccine",
+            "chiname": "B 型肝炎疫苗",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/E8uaEwWTLCW_axUVTbDn1g"
+        },
+        {
+            "id": 2,
+            "isactive": false,
+            "engname": "DTaP-Hib-IPV",
+            "chiname": "白喉破傷風非細胞性百日咳、ｂ型嗜血桿菌\n及不活化小兒麻痺五合一疫苗",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/4buEpU_Wqb7WhVNeDk84tg"
+        },
+        {
+            "id": 3,
+            "isactive": false,
+            "engname": "PCV 13",
+            "chiname": "13價結合型肺炎鏈球菌疫苗",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/UBBuFeqsBwVMVesJNx-mcw"
+        },
+        {
+            "id": 4,
+            "isactive": true,
+            "engname": "Varicella vaccine",
+            "chiname": "水痘疫苗",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/3un9_HOLlYs3sIjoM6s3iA"
+        },
+        {
+            "id": 5,
+            "isactive": true,
+            "engname": "MMR vaccine",
+            "chiname": "麻疹腮腺炎德國麻疹混合疫苗",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/1XnG2MJUtxJ6jwPn_wCjEA"
+        },
+        {
+            "id": 6,
+            "isactive": true,
+            "engname": "Japanese encephalitis live chimeric vaccine",
+            "chiname": "活性減毒嵌合型日本腦炎疫苗",
+            "timelinenote": "106年5月22日起，改採用細胞培養之日本腦炎活性減毒疫苗，接種時程為出生滿15個月接種第1劑，間隔12個月接種第2劑",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/G-grOKyRVHDV8yGC-8NJrw"
+        },
+        {
+            "id": 7,
+            "isactive": false,
+            "engname": "Influenza vaccine",
+            "chiname": "流感疫苗",
+            "timelinenote": "8歲(含)以下兒童，初次接種流感疫苗應接種2劑，2劑間隔4週。\n9歲(含)以上兒童初次接種只需要一劑。\n目前政策規定國小學童於校園集中接種時，全面施打1劑公費疫苗，對於8歲(含)以下初次接種的兒童，家長若覺需要，可於學校接種第一劑間隔4週後，\"自費\"接種第二劑",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/sc9enn8wcrLIufbqD9MFpw"
+        },
+        {
+            "id": 8,
+            "isactive": false,
+            "engname": "Hepatitis A vaccine",
+            "chiname": "A型肝炎疫苗",
+            "timelinenote": "A型肝炎疫苗107年1月起之實施對象為民國106年1月1日（含）以後出生，年滿12個月以上之幼兒。\n另包括設籍於30個山地鄉、9個鄰近山地鄉之平地鄉鎮及金門連江兩縣等原公費A肝疫苗實施地區補接種之學齡前幼兒。\n另自108年4月8日起，擴及國小六年級（含）以下之低收入戶及中低收入戶兒童",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/2Tj7bMQQXoyKu2BvJma89w"
+        },
+        {
+            "id": 9,
+            "isactive": false,
+            "engname": "DTaP-IPV",
+            "chiname": "白喉破傷風非細胞性百日咳及不活化小兒麻痺混合疫苗",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/BCs7J-5nkN3Rl2te8t_OXA"
+        },
+        {
+            "id": 10,
+            "isactive": true,
+            "engname": "BCG vaccine",
+            "chiname": "卡介苗",
+            "timelinenote": "105年起，卡介苗接種時程由出生滿24小時後，調整為出生滿5個月(建議接種時間為出生滿5-8個月)",
+            "detaillink": "https://www.cdc.gov.tw/Category/Page/0xsE-bNbZiWWo_it9SfvPg"
+        }
+    ],
+    "intervalrecommand": {
+        "version": "107.11",
+        "data": [
+            {
+                "type": "non-active",
+                "recommands": [
+                    "與其他不活化疫苗可同時 （分開不同部位接種）或間隔任何時間接種"
+                ]
+            },
+            {
+                "type": "active",
+                "recommands": [
+                    "可同時接種，如不同時接種最少要間隔28天。如為卡介苗或口服活性減毒疫苗則可與其他活性減毒注射式疫苗同時或間隔任何時間接種 *(活性減毒疫苗間之接種間隔建議詳見「活性減毒與活性減毒疫苗接種間隔時間一覽表」)",
+                    "接受一般肌肉注射免疫球蛋白治療或HBIG 者，宜間隔3 個月後再接種MMR、水痘或 JE 等活性減毒疫苗。麻疹個案接觸者，如施打預防性肌肉注射免疫球蛋白，則應間隔 6 個月以上再接種MMR、水痘或 JE 等活性減毒疫苗(palivizumab 無須間隔)",
+                    "輸過血或接受靜脈注射血液製品者，宜間隔6 個月後再接種 MMR、水痘或 JE疫苗（Washed RBCs 無須間隔）",
+                    "曾靜脈注射高劑量（≧1g/kg）免疫球蛋白治療時，宜間隔11 個月後再接受MMR、水痘或JE 疫苗"
+                ]
+            },
+            {
+                "type": "mixed",
+                "recommands": ["霍亂疫苗與黃熱病疫苗應間隔3週以上", "其他可同時(分開不同部位接種)或間隔任何時間接種"]
+            }
+        ]
+    }
+}

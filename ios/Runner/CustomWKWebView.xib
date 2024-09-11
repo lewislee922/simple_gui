@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomWKWebViewController" customModule="Runner" customModuleProvider="target">
+            <connections>
+                <outlet property="BackwardButton" destination="uAg-gk-xAx" id="HXC-BU-JIE"/>
+                <outlet property="ForwardButton" destination="2FM-3v-wZw" id="bbn-Ft-lfd"/>
+                <outlet property="ProgressView" destination="DXV-UB-mHt" id="aZB-ED-qgQ"/>
+                <outlet property="WKView" destination="N5Q-js-PDk" id="Q3C-C0-Lol"/>
+                <outlet property="view" destination="ReS-te-95L" id="9aC-0L-Y1N"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ReS-te-95L">
+            <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5Q-js-PDk">
+                    <rect key="frame" x="0.0" y="24" width="820" height="1093.5"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="zht-Fs-v1b">
+                    <rect key="frame" x="0.0" y="1125.5" width="820" height="34.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAg-gk-xAx" userLabel="BackwardButton">
+                            <rect key="frame" x="0.0" y="0.0" width="401.5" height="34.5"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            <connections>
+                                <action selector="onTap:" destination="-1" eventType="touchUpInside" id="Cd1-a1-RGA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FM-3v-wZw" userLabel="ForwardButton">
+                            <rect key="frame" x="418.5" y="0.0" width="401.5" height="34.5"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            <connections>
+                                <action selector="onTap:" destination="-1" eventType="touchUpInside" id="zYg-oM-0al"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="uAg-gk-xAx" firstAttribute="width" secondItem="2FM-3v-wZw" secondAttribute="width" id="3cl-pU-wwQ"/>
+                    </constraints>
+                </stackView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DXV-UB-mHt">
+                    <rect key="frame" x="-0.5" y="24" width="821" height="4"/>
+                </progressView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="yC4-Qh-6M9"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="zht-Fs-v1b" firstAttribute="width" secondItem="ReS-te-95L" secondAttribute="width" id="4VE-s4-xsO"/>
+                <constraint firstItem="DXV-UB-mHt" firstAttribute="top" secondItem="yC4-Qh-6M9" secondAttribute="top" id="BBl-jX-45B"/>
+                <constraint firstItem="N5Q-js-PDk" firstAttribute="centerX" secondItem="zht-Fs-v1b" secondAttribute="centerX" id="GBX-mK-p1C"/>
+                <constraint firstItem="zht-Fs-v1b" firstAttribute="top" secondItem="N5Q-js-PDk" secondAttribute="bottom" constant="8" id="Scq-2j-Rfo"/>
+                <constraint firstItem="N5Q-js-PDk" firstAttribute="top" secondItem="yC4-Qh-6M9" secondAttribute="top" id="aUn-CY-RCk"/>
+                <constraint firstItem="DXV-UB-mHt" firstAttribute="centerX" secondItem="yC4-Qh-6M9" secondAttribute="centerX" id="cKS-Bv-ISd"/>
+                <constraint firstItem="zht-Fs-v1b" firstAttribute="centerX" secondItem="yC4-Qh-6M9" secondAttribute="centerX" id="oK5-O5-rTp"/>
+                <constraint firstItem="zht-Fs-v1b" firstAttribute="bottom" secondItem="yC4-Qh-6M9" secondAttribute="bottom" id="p9l-8v-3mr"/>
+                <constraint firstItem="DXV-UB-mHt" firstAttribute="width" secondItem="ReS-te-95L" secondAttribute="width" constant="1" id="v3h-lB-hCO"/>
+                <constraint firstItem="N5Q-js-PDk" firstAttribute="leading" secondItem="yC4-Qh-6M9" secondAttribute="leading" id="yOv-9N-wAB"/>
+            </constraints>
+            <point key="canvasLocation" x="174.8780487804878" y="-2.0338983050847457"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
